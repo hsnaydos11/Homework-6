@@ -1,0 +1,14 @@
+package fordfulkersonTest;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class FordFulkersonTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

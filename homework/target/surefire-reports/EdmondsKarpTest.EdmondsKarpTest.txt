@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: EdmondsKarpTest.EdmondsKarpTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+EdmondsKarpTest.EdmondsKarpTest.testUgly()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at EdmondsKarpTest.EdmondsKarpTest.testUgly(EdmondsKarpTest.java:59)
+Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:636)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:182)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	... 19 more
+
+EdmondsKarpTest.EdmondsKarpTest.testBad()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at Algorithm.EdmondsKarp.addEdge(EdmondsKarp.java:25)
+	at EdmondsKarpTest.EdmondsKarpTest.testBad(EdmondsKarpTest.java:45)
+
+EdmondsKarpTest.EdmondsKarpTest.testGood()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at EdmondsKarpTest.EdmondsKarpTest.testGood(EdmondsKarpTest.java:40)
+

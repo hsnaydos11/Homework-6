@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Algorithm.FordFulkerson"/>
+    <fullyQualifiedTypeName name="Algorithm.Dinics"/>
+    <fullyQualifiedTypeName name="Algorithm.EdmondsKarp"/>
+    <fullyQualifiedTypeName name="Algorithm.EdmondsKarp.Edge"/>
+    <fullyQualifiedTypeName name="Algorithm.Dinics.Edge"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.io.Console"/>
+    <fullyQualifiedTypeName name="Algorithm.QLearning"/>
+</qualifiedTypeNameHistroy>

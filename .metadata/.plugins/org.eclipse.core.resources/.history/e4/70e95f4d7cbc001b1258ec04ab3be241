@@ -1,0 +1,14 @@
+package DinicsTest;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class DinicsTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

@@ -1,0 +1,14 @@
+package QLearningTest;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class QLearningTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

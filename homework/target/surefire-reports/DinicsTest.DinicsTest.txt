@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: DinicsTest.DinicsTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+DinicsTest.DinicsTest.testUgly()  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at DinicsTest.DinicsTest.testUgly(DinicsTest.java:57)
+Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:636)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:182)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	... 19 more
+
+DinicsTest.DinicsTest.testBad()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at Algorithm.Dinics.addEdge(Dinics.java:24)
+	at DinicsTest.DinicsTest.testBad(DinicsTest.java:44)
+
+DinicsTest.DinicsTest.testGood()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at DinicsTest.DinicsTest.testGood(DinicsTest.java:39)
+
